@@ -90,8 +90,8 @@ done
 echo
 
 # Read inputs from the user
-read -p "Input your RPC L1_URL: " L1_URL
-read -p "Input your RPC L1_BEACON: " L1_BEACON
+read -p "Input your RPC ETH SEPOLIA: " L1_URL
+read -p "Input your RPC ETH SEPOLIA BEACON: " L1_BEACON
 
 # Update .env with user input
 sed -i "s|L1_URL=https://sepolia-l1.url|L1_URL=$L1_URL|g" .env
